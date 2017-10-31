@@ -1,13 +1,14 @@
 body {
-	font: 75% georgia, sans-serif;
+	font: 90% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #30362c;
-	background:#FFD1AA url(https://imagizer.imageshack.us/v2/401x500q90/r/923/tbLOhc.jpg) no-repeat bottom right;
+	background:#FFD1AA url(https://imagizer.imageshack.us/v2/401x500q90/r/922/klocW4.jpg) no-repeat bottom right;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0;
+	min-width: 750px;
 	}
 
 p { 
@@ -17,7 +18,7 @@ p {
 
 h1 { 
 	text-align: center;
-	font: italic normal 4.5em georgia, sans-serif;
+	font: italic normal 4.5vw georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #616c58;
@@ -43,36 +44,46 @@ h3 {
 /* DIV STYLING*/
 
 #Header{
-	margin-right: 40px;
-	margin-left: 40px;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 0;
 	padding-top: 1px;
-	padding-bottom: 60px; 
-	height: 80px;
-    background: #E5BC99 url(https://imagizer.imageshack.us/v2/500x214q90/r/922/SGTT21.jpg) no-repeat top left;
+	padding-bottom: 75px; 
+	height: 3%;
+	min-height: 125px;
+    background: #E5BC99 url(https://imagizer.imageshack.us/v2/348x212q90/r/923/8Ww1Z6.jpg) no-repeat top left;
 }
 
 #Menu {
-	margin-right: 40px;
-	margin-left: 40px;
-	padding-bottom: 10px;
-	height: 35px;
+	margin-top: 0px;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-top: 0px;
+	padding-bottom: px;
+	height: 3vw;
     background-color: #E5BC99;
 }
 
 #Menu ul {
-	margin: 30px;
-	padding: 10px;
+	margin-top: 0px;
+	padding-bottom: 5px;
 }
 
 #Menu li{
 	list-style-type: none;
 	float: left;
 	display: block;
-	width: 150px;
-	height: 90px;
+	width: 15vw;
+	min-width: 100px;
+	max-width: 200px;
+	height: 3vw;
 	text-align: center;
 	line-height: 20px;
-	font-size: 25px;
+	font-size: 2vw;
+	margin-right: 1vw;
+	padding-top: 10px;
+	padding-bottom: 5px; 
+	background-color: #d74242;
 }
 
 #Mainbody {
@@ -89,7 +100,7 @@ h3 {
 
 #Menu a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #5E6A56;
+	color: #454e30;
 	}
 
 #payasamimage img {
@@ -104,7 +115,8 @@ h3 {
 
 
 #Footer footer { 
-	margin-right: 50px;
+	min-width: 700px;
+	margin-right: 50%;
 	margin-top: 20px;
 	margin-left: 50px;
 	float: left;
