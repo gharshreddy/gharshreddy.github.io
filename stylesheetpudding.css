@@ -1,0 +1,121 @@
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #30362c;
+	background:#FFD1AA url(https://imagizer.imageshack.us/v2/401x500q90/r/923/tbLOhc.jpg) no-repeat bottom right;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+	}
+
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+
+h1 { 
+	text-align: center;
+	font: italic normal 4.5em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #616c58;
+	}
+
+h2 { 
+	font: italic normal 2.0em georgia, sans-serif;
+	text-align: left;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #616c58;
+	font-weight: bold;
+	}
+
+h3 { 
+	font: italic normal 1.5em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #616c58;
+	font-weight: bold;
+	}
+
+/* DIV STYLING*/
+
+#Header{
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-top: 1px;
+	padding-bottom: 60px; 
+	height: 80px;
+    background: #E5BC99 url(https://imagizer.imageshack.us/v2/500x214q90/r/922/SGTT21.jpg) no-repeat top left;
+}
+
+#Menu {
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-bottom: 10px;
+	height: 35px;
+    background-color: #E5BC99;
+}
+
+#Menu ul {
+	margin: 30px;
+	padding: 10px;
+}
+
+#Menu li{
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 150px;
+	height: 90px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 25px;
+}
+
+#Mainbody {
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+	}
+
+#Menu li a { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #87987B;
+	}
+
+#Menu a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #5E6A56;
+	}
+
+#payasamimage img {
+    display: block;
+    margin: auto;
+    width: 40%;
+	}
+
+#payasamimage figcaption {
+	text-align: center;
+	}
+
+
+#Footer footer { 
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+	float: left;
+	text-align: left;
+	list-style-type: none;
+	display: block;
+	}
+
+#Footer footer a:link, footer a:visited { 
+	margin-right: 20px;
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #87987B;
+	}
